@@ -1,0 +1,53 @@
+.resume-con {
+  border-radius: 10px;
+  box-shadow: -2px 2px 8px rgb(143, 143, 143);
+  padding: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.resume-con tr {
+  border-top: 2px rgb(224, 224, 224) solid;
+}
+.resume-con tr .tab-tit {
+  width: 20%;
+  font-size: 1.5rem;
+}
+.resume-con tr .tab-det {
+  font-size: 1.2rem;
+  padding: 35px 0;
+}
+.resume-con tr:first-child {
+  border-top: none;
+}
+.resume-con .mySelf {
+  width: 20vw;
+}
+.resume-con .mySelf img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1399px) {
+  .mySelf {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .resume-con {
+    padding: 2rem;
+  }
+  .resume-con .tab-tit {
+    width: 25% !important;
+  }
+}
+@media screen and (max-width: 475px) {
+  .tab-tit {
+    font-size: 1.1rem !important;
+  }
+  .tab-det {
+    font-size: 0.9rem !important;
+  }
+}/*# sourceMappingURL=resume.css.map */
